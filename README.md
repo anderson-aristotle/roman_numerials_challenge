@@ -7,7 +7,7 @@ Write code to convert back and forth between Arabic numerals (e.g. `23`)
 
 ## Prerequisites
 
--   Python
+-   Python (if you choose to attempt the bonus)
 
 ## Instructions
 
