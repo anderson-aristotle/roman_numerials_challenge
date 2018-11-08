@@ -17,35 +17,41 @@ describe('Challenge: ', () => {
     const arabicToRoman = romanNumerals.arabicToRoman
 
     it(`produces simple roman numerals`, () => {
-      [ [3, 'III'],
+      [
+        [3, 'III'],
         [20, 'XX'],
-        [100, 'C']].forEach((pair) => {
-          const arabic = pair[0]
-          const roman = pair[1]
-          expect(arabicToRoman(arabic)).to.equal(roman)
-        })
+        [100, 'C']
+      ].forEach((pair) => {
+        const arabic = pair[0]
+        const roman = pair[1]
+        expect(arabicToRoman(arabic)).to.equal(roman)
+      })
     })
 
     it(`produces non-subtractive roman numerals`, () => {
-      [ [15, 'XV'],
+      [
+        [15, 'XV'],
         [6, 'VI'],
         [123, 'CXXIII'],
-        [71, 'LXXI']].forEach((pair) => {
-          const arabic = pair[0]
-          const roman = pair[1]
-          expect(arabicToRoman(arabic)).to.equal(roman)
-        })
+        [71, 'LXXI']
+      ].forEach((pair) => {
+        const arabic = pair[0]
+        const roman = pair[1]
+        expect(arabicToRoman(arabic)).to.equal(roman)
+      })
     })
 
     it(`produces subtractive roman numerals`, () => {
-      [ [4, 'IV'],
+      [
+        [4, 'IV'],
         [9, 'IX'],
         [99, 'XCIX'],
-        [405, 'CDV']].forEach((pair) => {
-          const arabic = pair[0]
-          const roman = pair[1]
-          expect(arabicToRoman(arabic)).to.equal(roman)
-        })
+        [405, 'CDV']
+      ].forEach((pair) => {
+        const arabic = pair[0]
+        const roman = pair[1]
+        expect(arabicToRoman(arabic)).to.equal(roman)
+      })
     })
 
     it('handles bad input by returning null', () => {
@@ -59,35 +65,41 @@ describe('Challenge: ', () => {
     const romanToArabic = romanNumerals.romanToArabic
 
     it(`handles simple roman numerals`, () => {
-      [ [3, 'III'],
+      [
+        [3, 'III'],
         [20, 'XX'],
-        [100, 'C']].forEach((pair) => {
-          const arabic = pair[0]
-          const roman = pair[1]
-          expect(romanToArabic(roman)).to.equal(arabic)
-        })
+        [100, 'C']
+      ].forEach((pair) => {
+        const arabic = pair[0]
+        const roman = pair[1]
+        expect(romanToArabic(roman)).to.equal(arabic)
+      })
     })
 
     it(`handles non-subtractive roman numerals`, () => {
-      [ [15, 'XV'],
+      [
+        [15, 'XV'],
         [6, 'VI'],
         [123, 'CXXIII'],
-        [71, 'LXXI']].forEach((pair) => {
-          const arabic = pair[0]
-          const roman = pair[1]
-          expect(romanToArabic(roman)).to.equal(arabic)
-        })
+        [71, 'LXXI']
+      ].forEach((pair) => {
+        const arabic = pair[0]
+        const roman = pair[1]
+        expect(romanToArabic(roman)).to.equal(arabic)
+      })
     })
 
     it(`handles subtractive roman numerals`, () => {
-      [ [4, 'IV'],
+      [
+        [4, 'IV'],
         [9, 'IX'],
         [99, 'XCIX'],
-        [405, 'CDV']].forEach((pair) => {
-          const arabic = pair[0]
-          const roman = pair[1]
-          expect(romanToArabic(roman)).to.equal(arabic)
-        })
+        [405, 'CDV']
+      ].forEach((pair) => {
+        const arabic = pair[0]
+        const roman = pair[1]
+        expect(romanToArabic(roman)).to.equal(arabic)
+      })
     })
 
     it('handles bad input by returning null', () => {

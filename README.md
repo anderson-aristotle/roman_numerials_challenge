@@ -2,20 +2,17 @@
 
 # Roman Numeral Challenge
 
-Write code to convert back and forth between Arabic numerals (e.g. `23`)
-  and strings representing [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals) (e.g. `"XXIII"`).
-
-## Prerequisites
-
--   Python (if you choose to attempt the bonus)
+Write code to convert back and forth between Arabic numerals (e.g. `23`) and
+strings representing [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals)
+ (e.g. `"XXIII"`).
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Create and checkout a new branch to work on.
-1.  Fulfill the listed requirements.
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Install dependencies.
+1. Create and checkout a new branch to work on.
+1. Fulfill the listed requirements.
 
 For reference:
 
@@ -23,9 +20,10 @@ For reference:
 |:----------:|:--------------------:|:---------------:|:--------------:|
 | JavaScript | `npm install`        | `grunt nag`     | `grunt test`   |
 | Ruby       | `bundle install`     | `rubocop`       | `rspec spec`   |
-| Python     | `pip install -r ...` | `pep8`          | `mamba`        |
 
-JavaScript, Ruby, and Python starter code is available in [`lib/challenge.js`](lib/challenge.js), [`lib/challenge.rb`](lib/challenge.rb), and [`lib/challenge.py`](lib/challenge.py), respectively.
+JavaScript and Ruby starter code is available in
+[`lib/challenge.js`](lib/challenge.js) and
+[`lib/challenge.rb`](lib/challenge.rb), respectively.
 A pull request is not required, but it is necessary if you want a code review.
 
 You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
@@ -42,7 +40,7 @@ It's worth noting that in Roman numerals, there is no way to represent either
  other obviously invalid input), `arabic_to_roman` should return `null`/`nil`.
 
 Once you've successfully met all requirements in your language of choice,
- implement that same solution in Python.
+ implement that same solution in the other language.
 
 You should be running the appropriate linter before diagnosing any bugs, since
  linters find some of the most common sources of errors.
@@ -63,11 +61,8 @@ As with `arabic_to_roman`, you'll need to do some input validation --
 Also: be sure to set `xdescribe` to `describe` in your test file, so that
  the tests for `roman_to_arabic` will also run.
 
-Finally, do this process again in Python, un-hiding the appropriate tests in
- `challenge_spec.py`.
-
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
