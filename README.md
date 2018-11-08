@@ -2,20 +2,21 @@
 
 # Roman Numeral Challenge
 
-Write code to convert back and forth between Arabic numerals (e.g. `23`)
-  and strings representing [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals) (e.g. `"XXIII"`).
+Write code to convert back and forth between Arabic numerals (e.g. `23`) and
+strings representing [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals)
+ (e.g. `"XXIII"`).
 
 ## Prerequisites
 
--   Python (if you choose to attempt the bonus)
+- Python (if you choose to attempt the bonus)
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Create and checkout a new branch to work on.
-1.  Fulfill the listed requirements.
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Install dependencies.
+1. Create and checkout a new branch to work on.
+1. Fulfill the listed requirements.
 
 For reference:
 
@@ -25,7 +26,9 @@ For reference:
 | Ruby       | `bundle install`     | `rubocop`       | `rspec spec`   |
 | Python     | `pip install -r ...` | `pep8`          | `mamba`        |
 
-JavaScript, Ruby, and Python starter code is available in [`lib/challenge.js`](lib/challenge.js), [`lib/challenge.rb`](lib/challenge.rb), and [`lib/challenge.py`](lib/challenge.py), respectively.
+JavaScript, Ruby, and Python starter code is available in
+[`lib/challenge.js`](lib/challenge.js), [`lib/challenge.rb`](lib/challenge.rb),
+and [`lib/challenge.py`](lib/challenge.py), respectively.
 A pull request is not required, but it is necessary if you want a code review.
 
 You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
@@ -68,6 +71,6 @@ Finally, do this process again in Python, un-hiding the appropriate tests in
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
